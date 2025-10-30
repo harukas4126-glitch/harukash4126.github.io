@@ -1,0 +1,115 @@
+/* ============================
+   kids POPO - style.css
+   ============================ */
+
+body {
+  font-family: 'Rounded Mplus 1c', 'Hiragino Maru Gothic Pro', sans-serif;
+  margin: 0;
+  background-color: #fffafc;
+  color: #444;
+}
+
+/* ===== Header ===== */
+header {
+  background-color: #ffe5ec;
+  text-align: center;
+  padding: 1.5em 0;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2em;
+  color: #ff7ca8;
+}
+
+/* ===== Navigation ===== */
+nav {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  gap: 1.5em;
+  padding: 1em;
+  flex-wrap: wrap;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ff7ca8;
+  font-weight: bold;
+  background: #ffe5ec;
+  padding: 0.5em 1em;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  background: #ffb6c1;
+  color: #fff;
+}
+
+/* ===== Section ===== */
+section {
+  max-width: 900px;
+  margin: 2em auto;
+  padding: 0 1em;
+}
+
+section h2 {
+  color: #ff7ca8;
+  border-left: 6px solid #ffb6c1;
+  padding-left: 0.5em;
+}
+
+/* ===== Concept ===== */
+.concept {
+  background-color: #fff5f8;
+  padding: 1.5em;
+  border-radius: 10px;
+}
+
+/* ===== Price Table ===== */
+.price-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1em;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.price-table th,
+.price-table td {
+  border: 1px solid #ffdae0;
+  padding: 0.8em;
+  text-align: center;
+}
+
+.price-table th {
+  background-color: #ffe5ec;
+}
+
+/* ===== Gallery ===== */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  justify-content: center;
+  margin-top: 1em;
+}
+
+.gallery img {
+  width: 200px;
+  border-radius: 15px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* ===== Footer ===== */
+footer {
+  text-align: center;
+  background-color: #ffe5ec;
+  padding: 1.5em;
+  margin-top: 3em;
+  font-size: 0.9em;
+  color: #777;
+}
